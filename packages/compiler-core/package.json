@@ -17,5 +17,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "@mini-vue3/shared": "workspace:^1.0.0"
+  }
 }
