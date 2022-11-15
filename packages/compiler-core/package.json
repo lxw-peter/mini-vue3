@@ -1,5 +1,5 @@
 {
-  "name": "@vue/compiler-core",
+  "name": "@mini-vue3/compiler-core",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

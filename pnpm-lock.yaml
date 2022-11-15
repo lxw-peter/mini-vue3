@@ -21,6 +21,26 @@ importers:
       rollup: 3.3.0
       rollup-plugin-typescript2: 0.34.1_aoc4guvlpr5bfeyf2nus4ubkpu
 
+  packages/compiler-core:
+    specifiers:
+      '@mini-vue3/reactivity': workspace:^1.0.0
+      '@mini-vue3/shared': workspace:^1.0.0
+    dependencies:
+      '@mini-vue3/reactivity': link:../reactivity
+      '@mini-vue3/shared': link:../shared
+
+  packages/reactivity:
+    specifiers:
+      '@mini-vue3/shared': workspace:^1.0.0
+    dependencies:
+      '@mini-vue3/shared': link:../shared
+
+  packages/shared:
+    specifiers:
+      '@mini-vue3/shared': workspace:^1.0.0
+    dependencies:
+      '@mini-vue3/shared': 'link:'
+
 packages:
 
   /@rollup/plugin-commonjs/23.0.2_rollup@3.3.0:
